@@ -18,6 +18,8 @@ def main():
     ndata = data.shape[1]
     param = data.shape[0]
     datapoint = data[:, 1].reshape((param, 1)).repeat(leafsize, axis=1)
+
+    print(datapoint)
     # print(data)
     # print(datapoint)
     # print(kd_tree)
